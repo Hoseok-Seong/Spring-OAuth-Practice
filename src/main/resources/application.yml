@@ -4,7 +4,7 @@ server:
     context-path: /
     encoding:
       charset: utf-8
-      enabled: true
+      force: true
 
 spring:
   datasource:
