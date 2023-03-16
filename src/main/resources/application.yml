@@ -21,6 +21,9 @@ spring:
   h2:
     console:
       enabled: true
+  mustache:
+    servlet:
+      expose-session-attributes: true
 
 mybatis:
   mapper-locations:

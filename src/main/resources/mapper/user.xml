@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="shop.mtcoding.getintherelogin.model.UserRepository">
-   <select id="findByEmail" resultType="shop.mtcoding.getintherelogin.model.User">
-      select * from user_tb where email = #{email}  
+   <select id="findByUsername" resultType="shop.mtcoding.getintherelogin.model.User">
+      select * from user_tb where username = #{username}  
    </select>
 
    <insert id="insert">
