@@ -24,7 +24,7 @@ public class GetToken {
         // 2. body 객체 만들기
         MultiValueMap<String, String> xForm = new LinkedMultiValueMap<>();
         xForm.add("grant_type", "authorization_code");
-        xForm.add("client_id", "700486e5a5009af20ef26bca6cec84a9");
+        xForm.add("client_id", "");
         xForm.add("redirect_uri", "http://localhost:8080/callback"); // 2차 검증
         xForm.add("code", code); // 핵심
 
